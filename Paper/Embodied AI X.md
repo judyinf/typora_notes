@@ -172,7 +172,7 @@ https://arxiv.org/abs/2510.14117
 
 
 
-### Cross-Sensor Touch Generation
+### 🔺Cross-Sensor Touch Generation
 
 https://arxiv.org/abs/2510.09817v1
 

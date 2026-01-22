@@ -9,3 +9,5 @@
 | **数据组织结构 (Organization)**   | 数据集主要分为两个子集：  1. **SSVTP (Self-Supervised Visuo-Tactile Pretraining)**：包含约 4,587 对由机器人采集的数据。  2. **HCT (Human Collected Tactile)**：包含约 39,154 对由人类在野外采集的数据。  目录下通常包含 `image/` (视觉图), `tactile/` (触觉图), 和 `metadata.csv` (包含对应的文本描述和对齐索引)。 |
 | **适用任务 (Applicable Tasks)**   | 1. **开放词汇触觉分类 (Open-Vocabulary Tactile Classification)**：根据文本描述识别触觉纹理。  2. **视触觉-语言对齐 (Vision-Touch-Language Alignment)**：训练多模态编码器（如Tactile-CLIP），学习三者在同一特征空间的表达。  3. **跨模态生成 (Cross-Modal Generation)**：输入视觉图像，生成描述其触觉感受的文本（即“看图知感”）。 |
 
+
+

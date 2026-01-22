@@ -1,6 +1,8 @@
 # Paper Reading: Embodied AI 0
 
-> Review: Embodied AI; Tactile Robotics
+> Review; Thesis; Book
+
+Key Words: Embodied AI; Tactile Robotics
 
 [TOC]
 

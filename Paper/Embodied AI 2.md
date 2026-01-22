@@ -115,13 +115,11 @@ https://arxiv.org/pdf/2512.24210
 
 
 
-### ⭐𝒟⁢(ℛ,𝒪) Grasp: A Unified Representation of Robot and Object Interaction for Cross-Embodiment Dexterous Grasping
+### 𝒟⁢(ℛ,𝒪) Grasp: A Unified Representation of Robot and Object Interaction for Cross-Embodiment Dexterous Grasping
 
 https://arxiv.org/html/2410.01702v2
 
 D(R,O) Grasp 提取灵巧手以及物体的点云的 Feature，然后用 CVAE 预测距离矩阵，然后进行优化，因为优化可以并行，所以性能很高也很快。
-
-
 
 
 
