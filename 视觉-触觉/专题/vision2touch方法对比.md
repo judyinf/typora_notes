@@ -1,11 +1,11 @@
 # vision2touch方法对比
 
-| 论文                                                         | 输入                             | 输出                     | 特点             | 缺点                       | 适配任务                            |
-| ------------------------------------------------------------ | -------------------------------- | ------------------------ | ---------------- | -------------------------- | ----------------------------------- |
-| Generating Visual Scenes from Touch 2023 http://arxiv.org/abs/2309.15117 //UniTouch 2024 | 按压物体表面的图片(有手？)       | 视触觉图                 | 反应物体物理属性 | 无法反映接触状态           | 传感器有关，没完全开源              |
-| TactGen https://ieeexplore.ieee.org/document/10815063/media#media | 环绕物体一周的视频               | 视触觉图                 | 查询特定接触位置 | 输入难以获取               | 接触位置定位                        |
-| ViTacGen http://arxiv.org/abs/2510.14117                     | 第三视角全局相机记录物体运动视频 | 对应接触深度图（灰度图） | 反映动态接触深度 | 缺乏细粒度表面纹理和力分布 | 场景是Pushing，适合推理阶段实时生成 |
-| Visuo-Tactile Cross Generation ObjectFolder Real https://github.com/objectfolder/visuo-tactile-cross-generation 2023 | 局部图片                         | 视触觉图                 | 位置和视角一致性 |                            | 传感器有关                          |
+| 论文                                                         | 输入                             | 输出                     | 特点             | 缺点                       | 适配任务                                            |
+| ------------------------------------------------------------ | -------------------------------- | ------------------------ | ---------------- | -------------------------- | --------------------------------------------------- |
+| Generating Visual Scenes from Touch 2023 http://arxiv.org/abs/2309.15117 //UniTouch 2024 | 按压物体表面的图片(有手？)       | 视触觉图                 | 反应物体物理属性 | 无法反映接触状态           | 传感器有关，没完全开源 diffusion                    |
+| TactGen https://ieeexplore.ieee.org/document/10815063/media#media | 环绕物体一周的视频               | 视触觉图                 | 查询特定接触位置 | 输入难以获取               | 接触位置定位                                        |
+| ViTacGen http://arxiv.org/abs/2510.14117                     | 第三视角全局相机记录物体运动视频 | 对应接触深度图（灰度图） | 反映动态接触深度 | 缺乏细粒度表面纹理和力分布 | 场景是Pushing，适合推理阶段实时生成 encoder-decoder |
+| Visuo-Tactile Cross Generation ObjectFolder Real https://github.com/objectfolder/visuo-tactile-cross-generation 2023 | 局部图片                         | 视触觉图                 | 位置和视角一致性 |                            | 传感器有关 GAN                                      |
 
 
 
@@ -18,7 +18,7 @@ Episode Length Std: 43.586424492036514
 Mean Distance Error: 47.47566770269034
 Accuracy: 33.0
 
-
+![image-20260123161923349](_pic/vision2touch方法对比.assets/image-20260123161923349.png)
 
 ### 触觉信息
 

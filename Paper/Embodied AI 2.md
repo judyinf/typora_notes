@@ -190,9 +190,7 @@ https://arxiv.org/abs/2410.24091
 
 
 
-### VT-Refine: Learning Bimanual Assembly with Visuo-Tactile Feedback via Simulation Fine-Tuning
 
-http://arxiv.org/abs/2510.14930
 
 
 
@@ -201,3 +199,7 @@ http://arxiv.org/abs/2510.14930
 2026-01-06
 
 https://www.sharpa.com/blogs/news/sharpa-announces-craftnet-a-hierarchical-vtla-model-for-fine-manipulation
+
+
+
+⭐ 
